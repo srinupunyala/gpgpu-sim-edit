@@ -1,3 +1,9 @@
+Made few changes to the MAFIA frame work to support dynamic resource allocation for multiple application execution. Added support for assigning different number of SMs under multiple application executiion.
+
+
+
+
+
 MAFIA: Multiple Application Framework for GPU Architectures
 -----------------------------------------------------------
 
