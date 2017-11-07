@@ -1,0 +1,1046 @@
+statistics from finished app 2
+-------------------------------------------------
+gpu_ipc_1 =      51.0387
+gpu_ipc_2 =     281.2218
+gpu_tot_sim_cycle_stream_1 = 618170
+gpu_tot_sim_cycle_stream_2 = 618325
+gpu_sim_insn_1 = 31550589
+gpu_sim_insn_2 = 173886496
+gpu_sim_cycle = 618326
+gpu_sim_insn = 205437085
+gpu_ipc =     332.2472
+gpu_tot_sim_cycle = 618326
+gpu_tot_sim_insn = 205437085
+gpu_tot_ipc =     332.2472
+gpu_tot_issued_cta = 0
+gpu_stall_dramfull = 2569795
+gpu_stall_icnt2sh    = 3353238
+gpu_total_sim_rate=226252
+
+========= Core cache stats =========
+L1I_cache:
+	L1I_total_cache_accesses = 3650539
+	L1I_total_cache_misses = 10433
+	L1I_total_cache_miss_rate = 0.0029
+	L1I_total_cache_pending_hits = 0
+	L1I_total_cache_reservation_fails = 13903
+L1D_cache:
+	L1D_cache_core[0]: Access = 32943, Miss = 25602, Miss_rate = 0.777, Pending_hits = 2091, Reservation_fails = 510793
+	L1D_cache_core[1]: Access = 10133, Miss = 7212, Miss_rate = 0.712, Pending_hits = 564, Reservation_fails = 139998
+	L1D_cache_core[2]: Access = 32647, Miss = 25525, Miss_rate = 0.782, Pending_hits = 2167, Reservation_fails = 507783
+	L1D_cache_core[3]: Access = 17267, Miss = 13517, Miss_rate = 0.783, Pending_hits = 1089, Reservation_fails = 319783
+	L1D_cache_core[4]: Access = 32631, Miss = 25637, Miss_rate = 0.786, Pending_hits = 2120, Reservation_fails = 504713
+	L1D_cache_core[5]: Access = 9077, Miss = 6372, Miss_rate = 0.702, Pending_hits = 566, Reservation_fails = 126488
+	L1D_cache_core[6]: Access = 31778, Miss = 25028, Miss_rate = 0.788, Pending_hits = 2076, Reservation_fails = 492761
+	L1D_cache_core[7]: Access = 13732, Miss = 11007, Miss_rate = 0.802, Pending_hits = 877, Reservation_fails = 244384
+	L1D_cache_core[8]: Access = 32799, Miss = 25948, Miss_rate = 0.791, Pending_hits = 2127, Reservation_fails = 502923
+	L1D_cache_core[9]: Access = 9220, Miss = 6159, Miss_rate = 0.668, Pending_hits = 582, Reservation_fails = 133336
+	L1D_cache_core[10]: Access = 33462, Miss = 25914, Miss_rate = 0.774, Pending_hits = 2127, Reservation_fails = 513485
+	L1D_cache_core[11]: Access = 16933, Miss = 13071, Miss_rate = 0.772, Pending_hits = 913, Reservation_fails = 307540
+	L1D_cache_core[12]: Access = 32794, Miss = 25932, Miss_rate = 0.791, Pending_hits = 2099, Reservation_fails = 498881
+	L1D_cache_core[13]: Access = 9685, Miss = 6808, Miss_rate = 0.703, Pending_hits = 579, Reservation_fails = 136666
+	L1D_cache_core[14]: Access = 32898, Miss = 25788, Miss_rate = 0.784, Pending_hits = 2251, Reservation_fails = 506665
+	L1D_cache_core[15]: Access = 13935, Miss = 11038, Miss_rate = 0.792, Pending_hits = 846, Reservation_fails = 245081
+	L1D_cache_core[16]: Access = 30526, Miss = 23982, Miss_rate = 0.786, Pending_hits = 2040, Reservation_fails = 492088
+	L1D_cache_core[17]: Access = 7669, Miss = 5314, Miss_rate = 0.693, Pending_hits = 488, Reservation_fails = 119134
+	L1D_cache_core[18]: Access = 27616, Miss = 21543, Miss_rate = 0.780, Pending_hits = 1677, Reservation_fails = 465401
+	L1D_cache_core[19]: Access = 22253, Miss = 17369, Miss_rate = 0.781, Pending_hits = 1332, Reservation_fails = 379192
+	L1D_cache_core[20]: Access = 31738, Miss = 24949, Miss_rate = 0.786, Pending_hits = 1996, Reservation_fails = 495718
+	L1D_cache_core[21]: Access = 889, Miss = 440, Miss_rate = 0.495, Pending_hits = 103, Reservation_fails = 4147
+	L1D_cache_core[22]: Access = 31873, Miss = 24473, Miss_rate = 0.768, Pending_hits = 1927, Reservation_fails = 509084
+	L1D_cache_core[23]: Access = 24041, Miss = 18330, Miss_rate = 0.762, Pending_hits = 1338, Reservation_fails = 405514
+	L1D_cache_core[24]: Access = 33954, Miss = 26531, Miss_rate = 0.781, Pending_hits = 2181, Reservation_fails = 514229
+	L1D_cache_core[25]: Access = 5091, Miss = 3419, Miss_rate = 0.672, Pending_hits = 293, Reservation_fails = 87515
+	L1D_cache_core[26]: Access = 31358, Miss = 24559, Miss_rate = 0.783, Pending_hits = 2016, Reservation_fails = 507340
+	L1D_cache_core[27]: Access = 23019, Miss = 17890, Miss_rate = 0.777, Pending_hits = 1412, Reservation_fails = 385317
+	L1D_cache_core[28]: Access = 32820, Miss = 25771, Miss_rate = 0.785, Pending_hits = 2121, Reservation_fails = 513660
+	L1D_cache_core[29]: Access = 663, Miss = 344, Miss_rate = 0.519, Pending_hits = 97, Reservation_fails = 4428
+	L1D_cache_core[30]: Access = 19387, Miss = 16666, Miss_rate = 0.860, Pending_hits = 970, Reservation_fails = 395352
+	L1D_cache_core[31]: Access = 15754, Miss = 13457, Miss_rate = 0.854, Pending_hits = 738, Reservation_fails = 320705
+	L1D_cache_core[32]: Access = 19228, Miss = 16497, Miss_rate = 0.858, Pending_hits = 1034, Reservation_fails = 393100
+	L1D_cache_core[33]: Access = 2640, Miss = 2640, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 78116
+	L1D_cache_core[34]: Access = 19218, Miss = 16465, Miss_rate = 0.857, Pending_hits = 987, Reservation_fails = 395339
+	L1D_cache_core[35]: Access = 15966, Miss = 13623, Miss_rate = 0.853, Pending_hits = 784, Reservation_fails = 331190
+	L1D_cache_core[36]: Access = 19201, Miss = 16549, Miss_rate = 0.862, Pending_hits = 927, Reservation_fails = 398659
+	L1D_cache_core[37]: Access = 2640, Miss = 2640, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 69681
+	L1D_cache_core[38]: Access = 19219, Miss = 16544, Miss_rate = 0.861, Pending_hits = 930, Reservation_fails = 390898
+	L1D_cache_core[39]: Access = 16078, Miss = 13620, Miss_rate = 0.847, Pending_hits = 813, Reservation_fails = 344584
+	L1D_cache_core[40]: Access = 21440, Miss = 18728, Miss_rate = 0.874, Pending_hits = 957, Reservation_fails = 465061
+	L1D_cache_core[41]: Access = 5280, Miss = 5280, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 141419
+	L1D_cache_core[42]: Access = 22100, Miss = 19391, Miss_rate = 0.877, Pending_hits = 983, Reservation_fails = 469377
+	L1D_cache_core[43]: Access = 18257, Miss = 15898, Miss_rate = 0.871, Pending_hits = 803, Reservation_fails = 400683
+	L1D_cache_core[44]: Access = 21451, Miss = 18917, Miss_rate = 0.882, Pending_hits = 982, Reservation_fails = 454753
+	L1D_cache_core[45]: Access = 5280, Miss = 5280, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 144058
+	L1D_cache_core[46]: Access = 22255, Miss = 19441, Miss_rate = 0.874, Pending_hits = 1028, Reservation_fails = 457610
+	L1D_cache_core[47]: Access = 18425, Miss = 15977, Miss_rate = 0.867, Pending_hits = 762, Reservation_fails = 409064
+	L1D_cache_core[48]: Access = 21442, Miss = 18740, Miss_rate = 0.874, Pending_hits = 974, Reservation_fails = 447137
+	L1D_cache_core[49]: Access = 18370, Miss = 16065, Miss_rate = 0.875, Pending_hits = 741, Reservation_fails = 388807
+	L1D_cache_core[50]: Access = 22680, Miss = 22680, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 424173
+	L1D_cache_core[51]: Access = 22680, Miss = 22680, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 423456
+	L1D_cache_core[52]: Access = 22680, Miss = 22680, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 425460
+	L1D_cache_core[53]: Access = 23320, Miss = 23320, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 424906
+	L1D_cache_core[54]: Access = 23320, Miss = 23320, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 427715
+	L1D_cache_core[55]: Access = 23340, Miss = 23340, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 428771
+	L1D_cache_core[56]: Access = 23980, Miss = 23980, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 415178
+	L1D_cache_core[57]: Access = 24000, Miss = 24000, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 409668
+	L1D_cache_core[58]: Access = 23340, Miss = 23340, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 431719
+	L1D_cache_core[59]: Access = 23960, Miss = 23960, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 412388
+	L1D_total_cache_accesses = 1222375
+	L1D_total_cache_misses = 1031190
+	L1D_total_cache_miss_rate = 0.8436
+	L1D_total_cache_pending_hits = 56508
+	L1D_total_cache_reservation_fails = 21693074
+	L1D_cache_data_port_util = 0.004
+	L1D_cache_fill_port_util = 0.020
+L1C_cache:
+	L1C_total_cache_accesses = 109019
+	L1C_total_cache_misses = 1360
+	L1C_total_cache_miss_rate = 0.0125
+	L1C_total_cache_pending_hits = 0
+	L1C_total_cache_reservation_fails = 3835
+L1T_cache:
+	L1T_total_cache_accesses = 0
+	L1T_total_cache_misses = 0
+	L1T_total_cache_pending_hits = 0
+	L1T_total_cache_reservation_fails = 0
+
+Total_core_cache_stats:
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][HIT] = 132454
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][HIT_RESERVED] = 56389
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][MISS] = 710404
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][RESERVATION_FAIL] = 18134222
+	Total_core_cache_stats_breakdown[CONST_ACC_R][HIT] = 107659
+	Total_core_cache_stats_breakdown[CONST_ACC_R][MISS] = 1360
+	Total_core_cache_stats_breakdown[CONST_ACC_R][RESERVATION_FAIL] = 3835
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][HIT] = 2223
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][HIT_RESERVED] = 119
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][MISS] = 320786
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][RESERVATION_FAIL] = 3558852
+	Total_core_cache_stats_breakdown[INST_ACC_R][HIT] = 3640106
+	Total_core_cache_stats_breakdown[INST_ACC_R][MISS] = 10433
+	Total_core_cache_stats_breakdown[INST_ACC_R][RESERVATION_FAIL] = 13903
+Shader 0 warp_id issue ditsribution:
+warp_id:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 
+distro:
+1483, 1077, 1023, 1520, 1075, 1029, 1062, 1318, 1496, 800, 1047, 1240, 1064, 729, 1077, 692, 1535, 1125, 1062, 1118, 1462, 637, 1465, 629, 1047, 625, 1009, 614, 951, 629, 1353, 1009, 576, 563, 509, 550, 576, 576, 464, 576, 576, 1019, 576, 589, 1034, 576, 561, 576, 
+gpgpu_n_tot_thrd_icount = 228545280
+gpgpu_n_tot_w_icount = 7142040
+gpgpu_n_stall_shd_mem = 22361970
+gpgpu_n_mem_read_local = 0
+gpgpu_n_mem_write_local = 0
+gpgpu_n_mem_read_global = 710343
+gpgpu_n_mem_write_global = 323110
+gpgpu_n_mem_texture = 0
+gpgpu_n_mem_const = 60
+gpgpu_n_load_insn  = 7287007
+gpgpu_n_store_insn = 4323366
+gpgpu_n_shmem_insn = 0
+gpgpu_n_tex_insn = 0
+gpgpu_n_const_mem_insn = 0
+gpgpu_n_param_mem_insn = 1416513
+gpgpu_n_shmem_bkconflict = 0
+gpgpu_n_cache_bkconflict = 0
+gpgpu_n_intrawarp_mshr_merge = 0
+gpgpu_n_cmem_portconflict = 3835
+gpgpu_stall_shd_mem[c_mem][bk_conf] = 3835
+gpgpu_stall_shd_mem[c_mem][mshr_rc] = 0
+gpgpu_stall_shd_mem[c_mem][icnt_rc] = 0
+gpgpu_stall_shd_mem[c_mem][data_port_stall] = 0
+gpgpu_stall_shd_mem[t_mem][mshr_rc] = 0
+gpgpu_stall_shd_mem[t_mem][icnt_rc] = 0
+gpgpu_stall_shd_mem[t_mem][data_port_stall] = 0
+gpgpu_stall_shd_mem[s_mem][bk_conf] = 0
+gpgpu_stall_shd_mem[gl_mem][bk_conf] = 0
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 22358135
+gpgpu_stall_shd_mem[gl_mem][data_port_stall] = 0
+gpgpu_stall_shd_mem[g_mem_ld][mshr_rc] = 0
+gpgpu_stall_shd_mem[g_mem_ld][icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_ld][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_ld][wb_rsrv_fail] = 0
+gpgpu_stall_shd_mem[g_mem_st][mshr_rc] = 0
+gpgpu_stall_shd_mem[g_mem_st][icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_st][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_st][wb_rsrv_fail] = 0
+gpgpu_stall_shd_mem[l_mem_ld][mshr_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_rsrv_fail] = 0
+gpgpu_stall_shd_mem[l_mem_st][mshr_rc] = 0
+gpgpu_stall_shd_mem[l_mem_st][icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_rsrv_fail] = 0
+gpu_reg_bank_conflict_stalls = 0
+Warp Occupancy Distribution:
+Stall:36315193	W0_Idle:20694752	W0_Scoreboard:7530687	W1:176292	W2:143890	W3:144052	W4:113418	W5:80667	W6:39238	W7:20793	W8:7436	W9:2673	W10:977	W11:827	W12:682	W13:643	W14:899	W15:751	W16:1386	W17:2114	W18:3391	W19:6994	W20:8625	W21:14913	W22:19995	W23:19643	W24:20658	W25:22069	W26:15983	W27:9801	W28:4116	W29:1670	W30:515	W31:0	W32:6257167
+Warp Occupancy Distribution:
+Stall:19932308	W0_Idle:12171334	W0_Scoreboard:2715225	W1:167710	W2:129154	W3:128412	W4:98884	W5:71254	W6:33678	W7:17826	W8:5964	W9:2085	W10:539	W11:474	W12:444	W13:313	W14:492	W15:476	W16:1044	W17:1342	W18:1792	W19:4837	W20:5815	W21:9129	W22:13346	W23:11269	W24:11795	W25:12995	W26:7647	W27:4591	W28:2473	W29:995	W30:69	W31:0	W32:122949
+Warp Occupancy Distribution:
+Stall:16382885	W0_Idle:8523418	W0_Scoreboard:4815462	W1:8582	W2:14736	W3:15640	W4:14534	W5:9413	W6:5560	W7:2967	W8:1472	W9:588	W10:438	W11:353	W12:238	W13:330	W14:407	W15:275	W16:342	W17:772	W18:1599	W19:2157	W20:2810	W21:5784	W22:6649	W23:8374	W24:8863	W25:9074	W26:8336	W27:5210	W28:1643	W29:675	W30:446	W31:0	W32:6134218
+warp_utilization0: 0.099637
+warp_utilization1: 0.024372
+warp_utilization2: 0.174264
+traffic_breakdown_coretomem[CONST_ACC_R] = 480 {8:60,}
+traffic_breakdown_coretomem[GLOBAL_ACC_R] = 5682744 {8:710343,}
+traffic_breakdown_coretomem[GLOBAL_ACC_W] = 24930544 {40:198028,72:27,136:125055,}
+traffic_breakdown_coretomem[INST_ACC_R] = 4736 {8:592,}
+traffic_breakdown_memtocore[CONST_ACC_R] = 4320 {72:60,}
+traffic_breakdown_memtocore[GLOBAL_ACC_R] = 96514576 {136:709666,}
+traffic_breakdown_memtocore[GLOBAL_ACC_W] = 2583776 {8:322972,}
+traffic_breakdown_memtocore[INST_ACC_R] = 80512 {136:592,}
+maxmrqlatency = 1316 
+maxdqlatency = 0 
+maxmflatency = 3350 
+averagemflatency = 766 
+averagemflatency_1 = 724 
+averagemflatency_2= 809 
+averagemrqlatency_1 = 50 
+averagemrqlatency_2 = 57 
+max_icnt2mem_latency = 2920 
+max_icnt2sh_latency = 618325 
+mrq_lat_table:248710 	9718 	13098 	27949 	95355 	125872 	137763 	84816 	17075 	754 	18 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+dq_lat_table:0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+mf_lat_table:0 	0 	0 	0 	0 	0 	0 	21750 	215551 	588131 	205698 	1568 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+icnt2mem_lat_table:0 	0 	0 	29418 	17331 	24759 	88545 	171078 	371265 	302242 	28886 	186 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+icnt2sh_lat_table:0 	0 	0 	107607 	500575 	100470 	1074 	0 	0 	0 	1 	4 	1334 	3071 	6483 	19414 	40149 	105736 	111017 	35763 	0 	0 	0 	0 	
+mf_lat_pw_table:0 	0 	0 	0 	0 	0 	0 	5 	147 	1016 	67 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+maximum concurrent accesses to same row:
+dram[0]:        18        26        58        28        13        16        22        32        30        28        12        16        56        56        24        20 
+dram[1]:        24        19        38        56        22        21        34        28        28        28        28        16        56        56        26        24 
+dram[2]:        22        16        30        60        19        16        30        28        28        28        13        14        56        56        24        24 
+dram[3]:        22        16        60        50        23        18        35        23        28        28        34        14        56        60        24        20 
+dram[4]:        14        22        56        36        23        23        20        24        28        28        17        36        56        60        24        20 
+dram[5]:        16        24        42        56        22        31        22        25        28        28        16        20        56        60        24        20 
+maximum service time to same row:
+dram[0]:      5303      5147      3559      3670      4579      3828      2627      3978      4324      4071      6841      6829      2828      2803      2343      2756 
+dram[1]:      5152      5432      2568      2443      4246      4588      2828      4025      4750      4765      3627      7025      2775      2791      2966      2861 
+dram[2]:      5171      5423      3724      2287      3947      3076      4286      2382      4528      4644      6898      6979      2772      2784      2918      2858 
+dram[3]:      5129      5138      3545      2413      2727      4702      3853      1975      4292      4843      6768      6962      2822      2774      2826      3050 
+dram[4]:      5099      4918      3533      3567      2428      4440      3764      2725      2703      4441      6818      7044      2837      2783      2806      3066 
+dram[5]:      5141      5345      3666      3717      2298      4509      4054      3891      4334      4486      6758      3844      2792      2821      2831      3818 
+average row accesses per activate:
+dram[0]:  1.563936  1.556865  1.595627  1.591224  1.630464  1.664036  1.622945  1.631229  1.693800  1.701154  1.706425  1.735915  1.564008  1.607598  1.546365  1.578578 
+dram[1]:  1.600000  1.591668  1.643648  1.609276  1.689433  1.624295  1.677236  1.604070  1.721038  1.685693  1.712084  1.715759  1.602886  1.574144  1.599905  1.570424 
+dram[2]:  1.554341  1.523318  1.601809  1.540243  1.661024  1.596150  1.654913  1.600648  1.697958  1.670451  1.700328  1.681532  1.599915  1.548550  1.559246  1.550699 
+dram[3]:  1.606283  1.605444  1.618250  1.623743  1.633096  1.658340  1.632909  1.675889  1.727858  1.727823  1.741373  1.714559  1.596781  1.607741  1.576844  1.602014 
+dram[4]:  1.551554  1.525049  1.591669  1.610066  1.627797  1.643101  1.618092  1.652693  1.716591  1.693464  1.757408  1.714880  1.571369  1.579632  1.554842  1.578319 
+dram[5]:  1.608154  1.576600  1.633454  1.595833  1.690898  1.637852  1.653098  1.620032  1.743000  1.686463  1.745980  1.705437  1.619982  1.598964  1.620397  1.559066 
+average row locality = 761128/465466 = 1.635196
+average row locality_1 = 229526/131286 = 1.748290
+average row locality_2 = 531602/334180 = 1.590765
+average row locality_3 = 0/0 = -nan
+number of total memory accesses made:
+dram[0]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[1]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[2]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[3]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[4]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[5]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+total accesses: 0
+min_bank_accesses = 0!
+min_chip_accesses = 0!
+number of total read accesses:
+dram[0]:      5904      5820      5503      5437      6172      6029      6597      6318      7122      6929      6896      6675      6129      5953      5792      5659 
+dram[1]:      5784      5833      5380      5424      6016      5919      6231      6220      6698      6626      6419      6312      5726      5652      5406      5389 
+dram[2]:      5796      5776      5457      5433      5984      5966      6451      6418      7033      7041      6654      6740      6050      5945      5636      5677 
+dram[3]:      5693      5707      5408      5319      5890      5894      6211      6233      6546      6755      6450      6286      5659      5703      5552      5370 
+dram[4]:      5926      5720      5518      5401      6065      6040      6475      6370      7056      7038      6791      6771      5993      5909      5705      5691 
+dram[5]:      5788      5830      5323      5403      5893      6041      6138      6146      6743      6780      6364      6325      5625      5708      5377      5300 
+total reads: 579956
+bank skew: 7122/5300 = 1.34
+chip skew: 98935/94676 = 1.04
+number of total write accesses:
+dram[0]:      1312      1312      1430      1453      2220      2193      2089      2029      2658      2657      2718      2784      1519      1495      1312      1312 
+dram[1]:      1312      1312      1451      1446      2122      2144      2021      2057      2587      2529      2691      2670      1495      1471      1312      1312 
+dram[2]:      1312      1312      1450      1418      2258      2160      2138      1979      2698      2671      2691      2611      1476      1423      1312      1312 
+dram[3]:      1312      1312      1455      1465      2153      2139      1996      2066      2584      2672      2734      2676      1485      1400      1312      1312 
+dram[4]:      1312      1312      1436      1445      2157      2141      2075      2067      2732      2652      2757      2702      1493      1381      1312      1312 
+dram[5]:      1312      1312      1464      1491      2132      2163      2025      2006      2657      2676      2757      2679      1477      1393      1312      1312 
+total reads: 181173
+bank skew: 2784/1312 = 2.12
+chip skew: 30493/29932 = 1.02
+average mf latency per bank:
+dram[0]:        712       711       699       700      1581      1605      2032      2072       870       827       837       818       743       735       737       727
+dram[1]:        689       707       696       715      1516      1725      1984      2051       813       827       788       806       712       726       697       713
+dram[2]:        690       730       673       729      1550      1797      1986      2189       828       879       804       857       723       945       704       752
+dram[3]:        670       687       675       688      1541      1684      1967      1992       812       822       782       795       698       702       685       686
+dram[4]:        719       710       708       703      1647      1777      2072      2085       857       849       834       829       751       738       733       729
+dram[5]:        682       693       681       699      1591      1691      1969      2055       801       818       787       815       707       701       690       689
+maximum mf latency per bank:
+dram[0]:       2481      2374      2315      2146      2641      2682      2773      2430      2540      2414      2763      2549      2459      2646      2318      2913
+dram[1]:       2904      2884      2998      2777      3038      2713      2966      2943      3330      2926      2912      3108      2855      2558      2500      3010
+dram[2]:       2291      2609      2463      2561      2620      2871      2438      2771      2438      2972      2465      2685      2226      2610      2280      2508
+dram[3]:       2584      2506      2658      2352      3020      2581      2778      3350      2782      3137      2619      2980      2790      2322      3051      2951
+dram[4]:       2349      2721      2417      2527      2618      2698      2784      2360      2676      2436      2859      2732      2713      2291      2737      2383
+dram[5]:       2336      2277      2615      2394      2959      3159      2516      3207      2496      2496      2922      2806      2887      2515      3013      2408
+DRAM[0]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=404253 n_act=79453 n_pre=79437 n_req=125582 n_req_1=52661 n_req_2=72921 n_req_3=0 n_rd=197870 n_write=55176 bw_util=0.6012 bw_util_1=0.2438 bw_util_2=0.3574 bw_util_3=0 blp=7.870028 blp_1= 3.137021 blp_2= 5.184927 blp_3= -nan
+ n_activity=806753 dram_eff=0.6083 dram_eff_1=0.2467 dram_eff_2=0.3616 dram_eff_3=0
+bk0: 11808a 502686i bk1: 11640a 500296i bk2: 11006a 500656i bk3: 10874a 496013i bk4: 12344a 403926i bk5: 12058a 396754i bk6: 13194a 374904i bk7: 12636a 384861i bk8: 14244a 361375i bk9: 13858a 362095i bk10: 13792a 341094i bk11: 13350a 338881i bk12: 12258a 442472i bk13: 11906a 447003i bk14: 11584a 447946i bk15: 11318a 448070i 
+bw_dist = 0.244	0.357	0.000	0.387	0.012
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=11.9109
+DRAM[1]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=419562 n_act=76088 n_pre=76072 n_req=121336 n_req_1=48420 n_req_2=72916 n_req_3=0 n_rd=190070 n_write=54397 bw_util=0.5813 bw_util_1=0.2239 bw_util_2=0.3573 bw_util_3=0 blp=7.363442 blp_1= 2.854997 blp_2= 5.043197 blp_3= -nan
+ n_activity=804815 dram_eff=0.5895 dram_eff_1=0.2271 dram_eff_2=0.3624 dram_eff_3=0
+bk0: 11568a 520474i bk1: 11666a 509173i bk2: 10760a 514862i bk3: 10848a 503984i bk4: 12032a 438778i bk5: 11838a 418908i bk6: 12462a 416850i bk7: 12440a 396556i bk8: 13396a 399986i bk9: 13252a 399621i bk10: 12838a 385185i bk11: 12624a 377994i bk12: 11452a 473204i bk13: 11304a 471288i bk14: 10812a 486997i bk15: 10778a 471059i 
+bw_dist = 0.224	0.357	0.000	0.405	0.014
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=10.6919
+DRAM[2]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=406231 n_act=79501 n_pre=79486 n_req=124475 n_req_1=51559 n_req_2=72916 n_req_3=0 n_rd=196112 n_write=54859 bw_util=0.5963 bw_util_1=0.239 bw_util_2=0.3573 bw_util_3=0 blp=7.818437 blp_1= 3.165680 blp_2= 5.131958 blp_3= -nan
+ n_activity=806037 dram_eff=0.6039 dram_eff_1=0.242 dram_eff_2=0.3618 dram_eff_3=0
+bk0: 11592a 508463i bk1: 11552a 496879i bk2: 10914a 503591i bk3: 10866a 492584i bk4: 11968a 404210i bk5: 11930a 396200i bk6: 12902a 387652i bk7: 12836a 383486i bk8: 14066a 366359i bk9: 14082a 350736i bk10: 13308a 353147i bk11: 13480a 352056i bk12: 12100a 454258i bk13: 11890a 448935i bk14: 11272a 454361i bk15: 11354a 443985i 
+bw_dist = 0.239	0.357	0.000	0.391	0.012
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=11.5697
+DRAM[3]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=421093 n_act=75556 n_pre=75540 n_req=121007 n_req_1=48087 n_req_2=72920 n_req_3=0 n_rd=189350 n_write=54650 bw_util=0.5796 bw_util_1=0.2222 bw_util_2=0.3574 bw_util_3=0 blp=7.380267 blp_1= 2.848657 blp_2= 5.080877 blp_3= -nan
+ n_activity=804006 dram_eff=0.5883 dram_eff_1=0.2256 dram_eff_2=0.3628 dram_eff_3=0
+bk0: 11386a 522225i bk1: 11414a 515030i bk2: 10816a 510341i bk3: 10638a 507502i bk4: 11780a 429691i bk5: 11786a 422477i bk6: 12422a 417833i bk7: 12466a 400678i bk8: 13092a 402967i bk9: 13510a 385390i bk10: 12900a 380815i bk11: 12572a 381223i bk12: 11318a 478234i bk13: 11406a 475810i bk14: 11104a 475816i bk15: 10740a 474986i 
+bw_dist = 0.222	0.357	0.000	0.406	0.015
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=10.515
+DRAM[4]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=406340 n_act=79026 n_pre=79010 n_req=125001 n_req_1=52083 n_req_2=72918 n_req_3=0 n_rd=196938 n_write=54875 bw_util=0.5986 bw_util_1=0.2413 bw_util_2=0.3574 bw_util_3=0 blp=7.803028 blp_1= 3.111700 blp_2= 5.138910 blp_3= -nan
+ n_activity=805442 dram_eff=0.6066 dram_eff_1=0.2445 dram_eff_2=0.3621 dram_eff_3=0
+bk0: 11852a 503079i bk1: 11440a 500155i bk2: 11036a 496062i bk3: 10802a 498023i bk4: 12130a 408498i bk5: 12080a 402764i bk6: 12950a 390027i bk7: 12740a 384623i bk8: 14112a 364237i bk9: 14076a 352581i bk10: 13582a 353900i bk11: 13542a 346728i bk12: 11986a 450473i bk13: 11818a 456766i bk14: 11410a 455598i bk15: 11382a 449912i 
+bw_dist = 0.241	0.357	0.000	0.388	0.013
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=11.7135
+DRAM[5]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=420268 n_act=75842 n_pre=75826 n_req=121266 n_req_1=48347 n_req_2=72919 n_req_3=0 n_rd=189566 n_write=54687 bw_util=0.5805 bw_util_1=0.2231 bw_util_2=0.3574 bw_util_3=0 blp=7.357291 blp_1= 2.846801 blp_2= 5.065275 blp_3= -nan
+ n_activity=804880 dram_eff=0.5886 dram_eff_1=0.2262 dram_eff_2=0.3624 dram_eff_3=0
+bk0: 11576a 523141i bk1: 11660a 510159i bk2: 10646a 514235i bk3: 10806a 499779i bk4: 11786a 441087i bk5: 12082a 417781i bk6: 12276a 417341i bk7: 12292a 406911i bk8: 13486a 396008i bk9: 13560a 378304i bk10: 12728a 376501i bk11: 12648a 379450i bk12: 11250a 480046i bk13: 11416a 478883i bk14: 10754a 489615i bk15: 10600a 477017i 
+bw_dist = 0.223	0.357	0.000	0.406	0.014
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=10.5437
+
+========= L2 cache stats =========
+L2_cache_bank[0]: Access = 86629, Miss = 50124, Miss_rate = 0.579, Pending_hits = 398, Reservation_fails = 40483
+L2_cache_bank[1]: Access = 85838, Miss = 48822, Miss_rate = 0.569, Pending_hits = 316, Reservation_fails = 36930
+L2_cache_bank[2]: Access = 84531, Miss = 47680, Miss_rate = 0.564, Pending_hits = 295, Reservation_fails = 24986
+L2_cache_bank[3]: Access = 85687, Miss = 47381, Miss_rate = 0.553, Pending_hits = 322, Reservation_fails = 27184
+L2_cache_bank[4]: Access = 85983, Miss = 49062, Miss_rate = 0.571, Pending_hits = 339, Reservation_fails = 32749
+L2_cache_bank[5]: Access = 89256, Miss = 48999, Miss_rate = 0.549, Pending_hits = 286, Reservation_fails = 39956
+L2_cache_bank[6]: Access = 84845, Miss = 47413, Miss_rate = 0.559, Pending_hits = 284, Reservation_fails = 19792
+L2_cache_bank[7]: Access = 86087, Miss = 47268, Miss_rate = 0.549, Pending_hits = 351, Reservation_fails = 23699
+L2_cache_bank[8]: Access = 86417, Miss = 49529, Miss_rate = 0.573, Pending_hits = 282, Reservation_fails = 35854
+L2_cache_bank[9]: Access = 87144, Miss = 48941, Miss_rate = 0.562, Pending_hits = 328, Reservation_fails = 35544
+L2_cache_bank[10]: Access = 84893, Miss = 47255, Miss_rate = 0.557, Pending_hits = 323, Reservation_fails = 24255
+L2_cache_bank[11]: Access = 86146, Miss = 47533, Miss_rate = 0.552, Pending_hits = 365, Reservation_fails = 26450
+Cache L2_bank_000:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86629, Miss = 50124 (0.579), PendingHit = 398 (0.00459)
+Cache L2_bank_001:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 85838, Miss = 48822 (0.569), PendingHit = 316 (0.00368)
+Cache L2_bank_002:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 84531, Miss = 47680 (0.564), PendingHit = 295 (0.00349)
+Cache L2_bank_003:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 85687, Miss = 47381 (0.553), PendingHit = 322 (0.00376)
+Cache L2_bank_004:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 85983, Miss = 49062 (0.571), PendingHit = 339 (0.00394)
+Cache L2_bank_005:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 89256, Miss = 48999 (0.549), PendingHit = 286 (0.0032)
+Cache L2_bank_006:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 84845, Miss = 47413 (0.559), PendingHit = 284 (0.00335)
+Cache L2_bank_007:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86087, Miss = 47268 (0.549), PendingHit = 351 (0.00408)
+Cache L2_bank_008:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86417, Miss = 49529 (0.573), PendingHit = 282 (0.00326)
+Cache L2_bank_009:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 87144, Miss = 48941 (0.562), PendingHit = 328 (0.00376)
+Cache L2_bank_010:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 84893, Miss = 47255 (0.557), PendingHit = 323 (0.0038)
+Cache L2_bank_011:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86146, Miss = 47533 (0.552), PendingHit = 365 (0.00424)
+L2 Cache Total Miss Rate = 0.561
+Stream 1: L2 Cache Miss Rate = 0.348
+Stream 2: L2 Cache Miss Rate = 0.775
+Stream 1: Accesses  = 517375
+Stream 1: Misses  = 180012
+Stream 2: Accesses  = 516081
+Stream 2: Misses  = 399995
+Stream 1+2: Accesses  = 1033456
+Stream 1+2: Misses  = 580007
+Total Accesses  = 1033456
+MPKI-CORES
+CORE_L2MPKI_0	23.703
+CORE_L2MPKI_1	16.321
+CORE_L2MPKI_2	23.597
+CORE_L2MPKI_3	30.081
+CORE_L2MPKI_4	23.796
+CORE_L2MPKI_5	14.592
+CORE_L2MPKI_6	24.150
+CORE_L2MPKI_7	30.941
+CORE_L2MPKI_8	23.755
+CORE_L2MPKI_9	15.657
+CORE_L2MPKI_10	23.801
+CORE_L2MPKI_11	29.315
+CORE_L2MPKI_12	23.816
+CORE_L2MPKI_13	14.330
+CORE_L2MPKI_14	23.488
+CORE_L2MPKI_15	29.602
+CORE_L2MPKI_16	23.658
+CORE_L2MPKI_17	15.863
+CORE_L2MPKI_18	23.458
+CORE_L2MPKI_19	29.228
+CORE_L2MPKI_20	23.767
+CORE_L2MPKI_21	1.588
+CORE_L2MPKI_22	23.768
+CORE_L2MPKI_23	32.102
+CORE_L2MPKI_24	23.984
+CORE_L2MPKI_25	9.897
+CORE_L2MPKI_26	23.835
+CORE_L2MPKI_27	29.511
+CORE_L2MPKI_28	24.521
+CORE_L2MPKI_29	1.407
+CORE_L2MPKI_30	4.862
+CORE_L2MPKI_31	4.172
+CORE_L2MPKI_32	4.827
+CORE_L2MPKI_33	1.596
+CORE_L2MPKI_34	4.822
+CORE_L2MPKI_35	4.157
+CORE_L2MPKI_36	4.872
+CORE_L2MPKI_37	1.596
+CORE_L2MPKI_38	4.891
+CORE_L2MPKI_39	4.168
+CORE_L2MPKI_40	3.206
+CORE_L2MPKI_41	1.597
+CORE_L2MPKI_42	3.260
+CORE_L2MPKI_43	2.865
+CORE_L2MPKI_44	3.213
+CORE_L2MPKI_45	1.596
+CORE_L2MPKI_46	3.284
+CORE_L2MPKI_47	2.868
+CORE_L2MPKI_48	3.148
+CORE_L2MPKI_49	2.934
+CORE_L2MPKI_50	1.596
+CORE_L2MPKI_51	1.596
+CORE_L2MPKI_52	1.596
+CORE_L2MPKI_53	1.596
+CORE_L2MPKI_54	1.596
+CORE_L2MPKI_55	1.596
+CORE_L2MPKI_56	1.596
+CORE_L2MPKI_57	1.596
+CORE_L2MPKI_58	1.596
+CORE_L2MPKI_59	1.596
+Avg_MPKI_Stream1= 21.918
+Avg_MPKI_Stream2= 2.796
+MISSES-CORES
+CORE_MISSES_0	8886
+CORE_MISSES_1	1846
+CORE_MISSES_2	8744
+CORE_MISSES_3	5576
+CORE_MISSES_4	8811
+CORE_MISSES_5	1659
+CORE_MISSES_6	8862
+CORE_MISSES_7	4833
+CORE_MISSES_8	8882
+CORE_MISSES_9	1644
+CORE_MISSES_10	8953
+CORE_MISSES_11	5368
+CORE_MISSES_12	8860
+CORE_MISSES_13	1683
+CORE_MISSES_14	8774
+CORE_MISSES_15	4671
+CORE_MISSES_16	8540
+CORE_MISSES_17	1556
+CORE_MISSES_18	8025
+CORE_MISSES_19	6309
+CORE_MISSES_20	8557
+CORE_MISSES_21	106
+CORE_MISSES_22	8586
+CORE_MISSES_23	6689
+CORE_MISSES_24	8869
+CORE_MISSES_25	865
+CORE_MISSES_26	8506
+CORE_MISSES_27	6477
+CORE_MISSES_28	8790
+CORE_MISSES_29	85
+CORE_MISSES_30	8755
+CORE_MISSES_31	7330
+CORE_MISSES_32	8692
+CORE_MISSES_33	2640
+CORE_MISSES_34	8687
+CORE_MISSES_35	7313
+CORE_MISSES_36	8771
+CORE_MISSES_37	2640
+CORE_MISSES_38	8798
+CORE_MISSES_39	7336
+CORE_MISSES_40	11066
+CORE_MISSES_41	5281
+CORE_MISSES_42	11261
+CORE_MISSES_43	9772
+CORE_MISSES_44	11082
+CORE_MISSES_45	5280
+CORE_MISSES_46	11351
+CORE_MISSES_47	9786
+CORE_MISSES_48	10846
+CORE_MISSES_49	10008
+CORE_MISSES_50	22680
+CORE_MISSES_51	22680
+CORE_MISSES_52	22680
+CORE_MISSES_53	23320
+CORE_MISSES_54	23320
+CORE_MISSES_55	23340
+CORE_MISSES_56	23980
+CORE_MISSES_57	24000
+CORE_MISSES_58	23340
+CORE_MISSES_59	23960
+L2_MISSES = 580007
+L2_total_cache_accesses = 1033456
+L2_total_cache_misses = 580007
+L2_total_cache_miss_rate = 0.5612
+L2_total_cache_pending_hits = 3889
+L2_total_cache_reservation_fails = 367882
+L2_total_cache_breakdown:
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][HIT] = 284745
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][HIT_RESERVED] = 601
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][MISS] = 424460
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][RESERVATION_FAIL] = 270108
+	L2_cache_stats_breakdown[CONST_ACC_R][HIT] = 53
+	L2_cache_stats_breakdown[CONST_ACC_R][HIT_RESERVED] = 5
+	L2_cache_stats_breakdown[CONST_ACC_R][MISS] = 2
+	L2_cache_stats_breakdown[CONST_ACC_R][RESERVATION_FAIL] = 120
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][HIT] = 164282
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][HIT_RESERVED] = 3205
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][MISS] = 155511
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][RESERVATION_FAIL] = 95177
+	L2_cache_stats_breakdown[INST_ACC_R][HIT] = 480
+	L2_cache_stats_breakdown[INST_ACC_R][HIT_RESERVED] = 78
+	L2_cache_stats_breakdown[INST_ACC_R][MISS] = 34
+	L2_cache_stats_breakdown[INST_ACC_R][RESERVATION_FAIL] = 2477
+L2_cache_data_port_util = 0.185
+L2_cache_fill_port_util = 0.000
+
+icnt_total_pkts_mem_to_simt=3874442
+icnt_total_pkts_simt_to_mem=1732407
+statistics from finished app 2
+-------------------------------------------------
+gpu_ipc_1 =      51.0387
+gpu_ipc_2 =     281.2218
+gpu_tot_sim_cycle_stream_1 = 618170
+gpu_tot_sim_cycle_stream_2 = 618325
+gpu_sim_insn_1 = 31550589
+gpu_sim_insn_2 = 173886496
+gpu_sim_cycle = 618326
+gpu_sim_insn = 205437085
+gpu_ipc =     332.2472
+gpu_tot_sim_cycle = 618326
+gpu_tot_sim_insn = 205437085
+gpu_tot_ipc =     332.2472
+gpu_tot_issued_cta = 0
+gpu_stall_dramfull = 2569795
+gpu_stall_icnt2sh    = 3353238
+gpu_total_sim_rate=226252
+
+========= Core cache stats =========
+L1I_cache:
+	L1I_total_cache_accesses = 3650539
+	L1I_total_cache_misses = 10433
+	L1I_total_cache_miss_rate = 0.0029
+	L1I_total_cache_pending_hits = 0
+	L1I_total_cache_reservation_fails = 13903
+L1D_cache:
+	L1D_cache_core[0]: Access = 32943, Miss = 25602, Miss_rate = 0.777, Pending_hits = 2091, Reservation_fails = 510793
+	L1D_cache_core[1]: Access = 10133, Miss = 7212, Miss_rate = 0.712, Pending_hits = 564, Reservation_fails = 139998
+	L1D_cache_core[2]: Access = 32647, Miss = 25525, Miss_rate = 0.782, Pending_hits = 2167, Reservation_fails = 507783
+	L1D_cache_core[3]: Access = 17267, Miss = 13517, Miss_rate = 0.783, Pending_hits = 1089, Reservation_fails = 319783
+	L1D_cache_core[4]: Access = 32631, Miss = 25637, Miss_rate = 0.786, Pending_hits = 2120, Reservation_fails = 504713
+	L1D_cache_core[5]: Access = 9077, Miss = 6372, Miss_rate = 0.702, Pending_hits = 566, Reservation_fails = 126488
+	L1D_cache_core[6]: Access = 31778, Miss = 25028, Miss_rate = 0.788, Pending_hits = 2076, Reservation_fails = 492761
+	L1D_cache_core[7]: Access = 13732, Miss = 11007, Miss_rate = 0.802, Pending_hits = 877, Reservation_fails = 244384
+	L1D_cache_core[8]: Access = 32799, Miss = 25948, Miss_rate = 0.791, Pending_hits = 2127, Reservation_fails = 502923
+	L1D_cache_core[9]: Access = 9220, Miss = 6159, Miss_rate = 0.668, Pending_hits = 582, Reservation_fails = 133336
+	L1D_cache_core[10]: Access = 33462, Miss = 25914, Miss_rate = 0.774, Pending_hits = 2127, Reservation_fails = 513485
+	L1D_cache_core[11]: Access = 16933, Miss = 13071, Miss_rate = 0.772, Pending_hits = 913, Reservation_fails = 307540
+	L1D_cache_core[12]: Access = 32794, Miss = 25932, Miss_rate = 0.791, Pending_hits = 2099, Reservation_fails = 498881
+	L1D_cache_core[13]: Access = 9685, Miss = 6808, Miss_rate = 0.703, Pending_hits = 579, Reservation_fails = 136666
+	L1D_cache_core[14]: Access = 32898, Miss = 25788, Miss_rate = 0.784, Pending_hits = 2251, Reservation_fails = 506665
+	L1D_cache_core[15]: Access = 13935, Miss = 11038, Miss_rate = 0.792, Pending_hits = 846, Reservation_fails = 245081
+	L1D_cache_core[16]: Access = 30526, Miss = 23982, Miss_rate = 0.786, Pending_hits = 2040, Reservation_fails = 492088
+	L1D_cache_core[17]: Access = 7669, Miss = 5314, Miss_rate = 0.693, Pending_hits = 488, Reservation_fails = 119134
+	L1D_cache_core[18]: Access = 27616, Miss = 21543, Miss_rate = 0.780, Pending_hits = 1677, Reservation_fails = 465401
+	L1D_cache_core[19]: Access = 22253, Miss = 17369, Miss_rate = 0.781, Pending_hits = 1332, Reservation_fails = 379192
+	L1D_cache_core[20]: Access = 31738, Miss = 24949, Miss_rate = 0.786, Pending_hits = 1996, Reservation_fails = 495718
+	L1D_cache_core[21]: Access = 889, Miss = 440, Miss_rate = 0.495, Pending_hits = 103, Reservation_fails = 4147
+	L1D_cache_core[22]: Access = 31873, Miss = 24473, Miss_rate = 0.768, Pending_hits = 1927, Reservation_fails = 509084
+	L1D_cache_core[23]: Access = 24041, Miss = 18330, Miss_rate = 0.762, Pending_hits = 1338, Reservation_fails = 405514
+	L1D_cache_core[24]: Access = 33954, Miss = 26531, Miss_rate = 0.781, Pending_hits = 2181, Reservation_fails = 514229
+	L1D_cache_core[25]: Access = 5091, Miss = 3419, Miss_rate = 0.672, Pending_hits = 293, Reservation_fails = 87515
+	L1D_cache_core[26]: Access = 31358, Miss = 24559, Miss_rate = 0.783, Pending_hits = 2016, Reservation_fails = 507340
+	L1D_cache_core[27]: Access = 23019, Miss = 17890, Miss_rate = 0.777, Pending_hits = 1412, Reservation_fails = 385317
+	L1D_cache_core[28]: Access = 32820, Miss = 25771, Miss_rate = 0.785, Pending_hits = 2121, Reservation_fails = 513660
+	L1D_cache_core[29]: Access = 663, Miss = 344, Miss_rate = 0.519, Pending_hits = 97, Reservation_fails = 4428
+	L1D_cache_core[30]: Access = 19387, Miss = 16666, Miss_rate = 0.860, Pending_hits = 970, Reservation_fails = 395352
+	L1D_cache_core[31]: Access = 15754, Miss = 13457, Miss_rate = 0.854, Pending_hits = 738, Reservation_fails = 320705
+	L1D_cache_core[32]: Access = 19228, Miss = 16497, Miss_rate = 0.858, Pending_hits = 1034, Reservation_fails = 393100
+	L1D_cache_core[33]: Access = 2640, Miss = 2640, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 78116
+	L1D_cache_core[34]: Access = 19218, Miss = 16465, Miss_rate = 0.857, Pending_hits = 987, Reservation_fails = 395339
+	L1D_cache_core[35]: Access = 15966, Miss = 13623, Miss_rate = 0.853, Pending_hits = 784, Reservation_fails = 331190
+	L1D_cache_core[36]: Access = 19201, Miss = 16549, Miss_rate = 0.862, Pending_hits = 927, Reservation_fails = 398659
+	L1D_cache_core[37]: Access = 2640, Miss = 2640, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 69681
+	L1D_cache_core[38]: Access = 19219, Miss = 16544, Miss_rate = 0.861, Pending_hits = 930, Reservation_fails = 390898
+	L1D_cache_core[39]: Access = 16078, Miss = 13620, Miss_rate = 0.847, Pending_hits = 813, Reservation_fails = 344584
+	L1D_cache_core[40]: Access = 21440, Miss = 18728, Miss_rate = 0.874, Pending_hits = 957, Reservation_fails = 465061
+	L1D_cache_core[41]: Access = 5280, Miss = 5280, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 141419
+	L1D_cache_core[42]: Access = 22100, Miss = 19391, Miss_rate = 0.877, Pending_hits = 983, Reservation_fails = 469377
+	L1D_cache_core[43]: Access = 18257, Miss = 15898, Miss_rate = 0.871, Pending_hits = 803, Reservation_fails = 400683
+	L1D_cache_core[44]: Access = 21451, Miss = 18917, Miss_rate = 0.882, Pending_hits = 982, Reservation_fails = 454753
+	L1D_cache_core[45]: Access = 5280, Miss = 5280, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 144058
+	L1D_cache_core[46]: Access = 22255, Miss = 19441, Miss_rate = 0.874, Pending_hits = 1028, Reservation_fails = 457610
+	L1D_cache_core[47]: Access = 18425, Miss = 15977, Miss_rate = 0.867, Pending_hits = 762, Reservation_fails = 409064
+	L1D_cache_core[48]: Access = 21442, Miss = 18740, Miss_rate = 0.874, Pending_hits = 974, Reservation_fails = 447137
+	L1D_cache_core[49]: Access = 18370, Miss = 16065, Miss_rate = 0.875, Pending_hits = 741, Reservation_fails = 388807
+	L1D_cache_core[50]: Access = 22680, Miss = 22680, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 424173
+	L1D_cache_core[51]: Access = 22680, Miss = 22680, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 423456
+	L1D_cache_core[52]: Access = 22680, Miss = 22680, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 425460
+	L1D_cache_core[53]: Access = 23320, Miss = 23320, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 424906
+	L1D_cache_core[54]: Access = 23320, Miss = 23320, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 427715
+	L1D_cache_core[55]: Access = 23340, Miss = 23340, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 428771
+	L1D_cache_core[56]: Access = 23980, Miss = 23980, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 415178
+	L1D_cache_core[57]: Access = 24000, Miss = 24000, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 409668
+	L1D_cache_core[58]: Access = 23340, Miss = 23340, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 431719
+	L1D_cache_core[59]: Access = 23960, Miss = 23960, Miss_rate = 1.000, Pending_hits = 0, Reservation_fails = 412388
+	L1D_total_cache_accesses = 1222375
+	L1D_total_cache_misses = 1031190
+	L1D_total_cache_miss_rate = 0.8436
+	L1D_total_cache_pending_hits = 56508
+	L1D_total_cache_reservation_fails = 21693074
+	L1D_cache_data_port_util = 0.004
+	L1D_cache_fill_port_util = 0.020
+L1C_cache:
+	L1C_total_cache_accesses = 109019
+	L1C_total_cache_misses = 1360
+	L1C_total_cache_miss_rate = 0.0125
+	L1C_total_cache_pending_hits = 0
+	L1C_total_cache_reservation_fails = 3835
+L1T_cache:
+	L1T_total_cache_accesses = 0
+	L1T_total_cache_misses = 0
+	L1T_total_cache_pending_hits = 0
+	L1T_total_cache_reservation_fails = 0
+
+Total_core_cache_stats:
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][HIT] = 132454
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][HIT_RESERVED] = 56389
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][MISS] = 710404
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_R][RESERVATION_FAIL] = 18134222
+	Total_core_cache_stats_breakdown[CONST_ACC_R][HIT] = 107659
+	Total_core_cache_stats_breakdown[CONST_ACC_R][MISS] = 1360
+	Total_core_cache_stats_breakdown[CONST_ACC_R][RESERVATION_FAIL] = 3835
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][HIT] = 2223
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][HIT_RESERVED] = 119
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][MISS] = 320786
+	Total_core_cache_stats_breakdown[GLOBAL_ACC_W][RESERVATION_FAIL] = 3558852
+	Total_core_cache_stats_breakdown[INST_ACC_R][HIT] = 3640106
+	Total_core_cache_stats_breakdown[INST_ACC_R][MISS] = 10433
+	Total_core_cache_stats_breakdown[INST_ACC_R][RESERVATION_FAIL] = 13903
+Shader 0 warp_id issue ditsribution:
+warp_id:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 
+distro:
+1483, 1077, 1023, 1520, 1075, 1029, 1062, 1318, 1496, 800, 1047, 1240, 1064, 729, 1077, 692, 1535, 1125, 1062, 1118, 1462, 637, 1465, 629, 1047, 625, 1009, 614, 951, 629, 1353, 1009, 576, 563, 509, 550, 576, 576, 464, 576, 576, 1019, 576, 589, 1034, 576, 561, 576, 
+gpgpu_n_tot_thrd_icount = 228545280
+gpgpu_n_tot_w_icount = 7142040
+gpgpu_n_stall_shd_mem = 22361970
+gpgpu_n_mem_read_local = 0
+gpgpu_n_mem_write_local = 0
+gpgpu_n_mem_read_global = 710343
+gpgpu_n_mem_write_global = 323110
+gpgpu_n_mem_texture = 0
+gpgpu_n_mem_const = 60
+gpgpu_n_load_insn  = 7287007
+gpgpu_n_store_insn = 4323366
+gpgpu_n_shmem_insn = 0
+gpgpu_n_tex_insn = 0
+gpgpu_n_const_mem_insn = 0
+gpgpu_n_param_mem_insn = 1416513
+gpgpu_n_shmem_bkconflict = 0
+gpgpu_n_cache_bkconflict = 0
+gpgpu_n_intrawarp_mshr_merge = 0
+gpgpu_n_cmem_portconflict = 3835
+gpgpu_stall_shd_mem[c_mem][bk_conf] = 3835
+gpgpu_stall_shd_mem[c_mem][mshr_rc] = 0
+gpgpu_stall_shd_mem[c_mem][icnt_rc] = 0
+gpgpu_stall_shd_mem[c_mem][data_port_stall] = 0
+gpgpu_stall_shd_mem[t_mem][mshr_rc] = 0
+gpgpu_stall_shd_mem[t_mem][icnt_rc] = 0
+gpgpu_stall_shd_mem[t_mem][data_port_stall] = 0
+gpgpu_stall_shd_mem[s_mem][bk_conf] = 0
+gpgpu_stall_shd_mem[gl_mem][bk_conf] = 0
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 22358135
+gpgpu_stall_shd_mem[gl_mem][data_port_stall] = 0
+gpgpu_stall_shd_mem[g_mem_ld][mshr_rc] = 0
+gpgpu_stall_shd_mem[g_mem_ld][icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_ld][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_ld][wb_rsrv_fail] = 0
+gpgpu_stall_shd_mem[g_mem_st][mshr_rc] = 0
+gpgpu_stall_shd_mem[g_mem_st][icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_st][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[g_mem_st][wb_rsrv_fail] = 0
+gpgpu_stall_shd_mem[l_mem_ld][mshr_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_rsrv_fail] = 0
+gpgpu_stall_shd_mem[l_mem_st][mshr_rc] = 0
+gpgpu_stall_shd_mem[l_mem_st][icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_icnt_rc] = 0
+gpgpu_stall_shd_mem[l_mem_ld][wb_rsrv_fail] = 0
+gpu_reg_bank_conflict_stalls = 0
+Warp Occupancy Distribution:
+Stall:36315193	W0_Idle:20694752	W0_Scoreboard:7530687	W1:176292	W2:143890	W3:144052	W4:113418	W5:80667	W6:39238	W7:20793	W8:7436	W9:2673	W10:977	W11:827	W12:682	W13:643	W14:899	W15:751	W16:1386	W17:2114	W18:3391	W19:6994	W20:8625	W21:14913	W22:19995	W23:19643	W24:20658	W25:22069	W26:15983	W27:9801	W28:4116	W29:1670	W30:515	W31:0	W32:6257167
+Warp Occupancy Distribution:
+Stall:19932308	W0_Idle:12171334	W0_Scoreboard:2715225	W1:167710	W2:129154	W3:128412	W4:98884	W5:71254	W6:33678	W7:17826	W8:5964	W9:2085	W10:539	W11:474	W12:444	W13:313	W14:492	W15:476	W16:1044	W17:1342	W18:1792	W19:4837	W20:5815	W21:9129	W22:13346	W23:11269	W24:11795	W25:12995	W26:7647	W27:4591	W28:2473	W29:995	W30:69	W31:0	W32:122949
+Warp Occupancy Distribution:
+Stall:16382885	W0_Idle:8523418	W0_Scoreboard:4815462	W1:8582	W2:14736	W3:15640	W4:14534	W5:9413	W6:5560	W7:2967	W8:1472	W9:588	W10:438	W11:353	W12:238	W13:330	W14:407	W15:275	W16:342	W17:772	W18:1599	W19:2157	W20:2810	W21:5784	W22:6649	W23:8374	W24:8863	W25:9074	W26:8336	W27:5210	W28:1643	W29:675	W30:446	W31:0	W32:6134218
+warp_utilization0: 0.099637
+warp_utilization1: 0.024372
+warp_utilization2: 0.174264
+traffic_breakdown_coretomem[CONST_ACC_R] = 480 {8:60,}
+traffic_breakdown_coretomem[GLOBAL_ACC_R] = 5682744 {8:710343,}
+traffic_breakdown_coretomem[GLOBAL_ACC_W] = 24930544 {40:198028,72:27,136:125055,}
+traffic_breakdown_coretomem[INST_ACC_R] = 4736 {8:592,}
+traffic_breakdown_memtocore[CONST_ACC_R] = 4320 {72:60,}
+traffic_breakdown_memtocore[GLOBAL_ACC_R] = 96514576 {136:709666,}
+traffic_breakdown_memtocore[GLOBAL_ACC_W] = 2583776 {8:322972,}
+traffic_breakdown_memtocore[INST_ACC_R] = 80512 {136:592,}
+maxmrqlatency = 1316 
+maxdqlatency = 0 
+maxmflatency = 3350 
+averagemflatency = 766 
+averagemflatency_1 = 724 
+averagemflatency_2= 809 
+averagemrqlatency_1 = 50 
+averagemrqlatency_2 = 57 
+max_icnt2mem_latency = 2920 
+max_icnt2sh_latency = 618325 
+mrq_lat_table:248710 	9718 	13098 	27949 	95355 	125872 	137763 	84816 	17075 	754 	18 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+dq_lat_table:0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+mf_lat_table:0 	0 	0 	0 	0 	0 	0 	21750 	215551 	588131 	205698 	1568 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+icnt2mem_lat_table:0 	0 	0 	29418 	17331 	24759 	88545 	171078 	371265 	302242 	28886 	186 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+icnt2sh_lat_table:0 	0 	0 	107607 	500575 	100470 	1074 	0 	0 	0 	1 	4 	1334 	3071 	6483 	19414 	40149 	105736 	111017 	35763 	0 	0 	0 	0 	
+mf_lat_pw_table:0 	0 	0 	0 	0 	0 	0 	5 	147 	1016 	67 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	
+maximum concurrent accesses to same row:
+dram[0]:        18        26        58        28        13        16        22        32        30        28        12        16        56        56        24        20 
+dram[1]:        24        19        38        56        22        21        34        28        28        28        28        16        56        56        26        24 
+dram[2]:        22        16        30        60        19        16        30        28        28        28        13        14        56        56        24        24 
+dram[3]:        22        16        60        50        23        18        35        23        28        28        34        14        56        60        24        20 
+dram[4]:        14        22        56        36        23        23        20        24        28        28        17        36        56        60        24        20 
+dram[5]:        16        24        42        56        22        31        22        25        28        28        16        20        56        60        24        20 
+maximum service time to same row:
+dram[0]:      5303      5147      3559      3670      4579      3828      2627      3978      4324      4071      6841      6829      2828      2803      2343      2756 
+dram[1]:      5152      5432      2568      2443      4246      4588      2828      4025      4750      4765      3627      7025      2775      2791      2966      2861 
+dram[2]:      5171      5423      3724      2287      3947      3076      4286      2382      4528      4644      6898      6979      2772      2784      2918      2858 
+dram[3]:      5129      5138      3545      2413      2727      4702      3853      1975      4292      4843      6768      6962      2822      2774      2826      3050 
+dram[4]:      5099      4918      3533      3567      2428      4440      3764      2725      2703      4441      6818      7044      2837      2783      2806      3066 
+dram[5]:      5141      5345      3666      3717      2298      4509      4054      3891      4334      4486      6758      3844      2792      2821      2831      3818 
+average row accesses per activate:
+dram[0]:  1.563936  1.556865  1.595627  1.591224  1.630464  1.664036  1.622945  1.631229  1.693800  1.701154  1.706425  1.735915  1.564008  1.607598  1.546365  1.578578 
+dram[1]:  1.600000  1.591668  1.643648  1.609276  1.689433  1.624295  1.677236  1.604070  1.721038  1.685693  1.712084  1.715759  1.602886  1.574144  1.599905  1.570424 
+dram[2]:  1.554341  1.523318  1.601809  1.540243  1.661024  1.596150  1.654913  1.600648  1.697958  1.670451  1.700328  1.681532  1.599915  1.548550  1.559246  1.550699 
+dram[3]:  1.606283  1.605444  1.618250  1.623743  1.633096  1.658340  1.632909  1.675889  1.727858  1.727823  1.741373  1.714559  1.596781  1.607741  1.576844  1.602014 
+dram[4]:  1.551554  1.525049  1.591669  1.610066  1.627797  1.643101  1.618092  1.652693  1.716591  1.693464  1.757408  1.714880  1.571369  1.579632  1.554842  1.578319 
+dram[5]:  1.608154  1.576600  1.633454  1.595833  1.690898  1.637852  1.653098  1.620032  1.743000  1.686463  1.745980  1.705437  1.619982  1.598964  1.620397  1.559066 
+average row locality = 761128/465466 = 1.635196
+average row locality_1 = 229526/131286 = 1.748290
+average row locality_2 = 531602/334180 = 1.590765
+average row locality_3 = 0/0 = -nan
+number of total memory accesses made:
+dram[0]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[1]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[2]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[3]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[4]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+dram[5]:         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0 
+total accesses: 0
+min_bank_accesses = 0!
+min_chip_accesses = 0!
+number of total read accesses:
+dram[0]:      5904      5820      5503      5437      6172      6029      6597      6318      7122      6929      6896      6675      6129      5953      5792      5659 
+dram[1]:      5784      5833      5380      5424      6016      5919      6231      6220      6698      6626      6419      6312      5726      5652      5406      5389 
+dram[2]:      5796      5776      5457      5433      5984      5966      6451      6418      7033      7041      6654      6740      6050      5945      5636      5677 
+dram[3]:      5693      5707      5408      5319      5890      5894      6211      6233      6546      6755      6450      6286      5659      5703      5552      5370 
+dram[4]:      5926      5720      5518      5401      6065      6040      6475      6370      7056      7038      6791      6771      5993      5909      5705      5691 
+dram[5]:      5788      5830      5323      5403      5893      6041      6138      6146      6743      6780      6364      6325      5625      5708      5377      5300 
+total reads: 579956
+bank skew: 7122/5300 = 1.34
+chip skew: 98935/94676 = 1.04
+number of total write accesses:
+dram[0]:      1312      1312      1430      1453      2220      2193      2089      2029      2658      2657      2718      2784      1519      1495      1312      1312 
+dram[1]:      1312      1312      1451      1446      2122      2144      2021      2057      2587      2529      2691      2670      1495      1471      1312      1312 
+dram[2]:      1312      1312      1450      1418      2258      2160      2138      1979      2698      2671      2691      2611      1476      1423      1312      1312 
+dram[3]:      1312      1312      1455      1465      2153      2139      1996      2066      2584      2672      2734      2676      1485      1400      1312      1312 
+dram[4]:      1312      1312      1436      1445      2157      2141      2075      2067      2732      2652      2757      2702      1493      1381      1312      1312 
+dram[5]:      1312      1312      1464      1491      2132      2163      2025      2006      2657      2676      2757      2679      1477      1393      1312      1312 
+total reads: 181173
+bank skew: 2784/1312 = 2.12
+chip skew: 30493/29932 = 1.02
+average mf latency per bank:
+dram[0]:        712       711       699       700      1581      1605      2032      2072       870       827       837       818       743       735       737       727
+dram[1]:        689       707       696       715      1516      1725      1984      2051       813       827       788       806       712       726       697       713
+dram[2]:        690       730       673       729      1550      1797      1986      2189       828       879       804       857       723       945       704       752
+dram[3]:        670       687       675       688      1541      1684      1967      1992       812       822       782       795       698       702       685       686
+dram[4]:        719       710       708       703      1647      1777      2072      2085       857       849       834       829       751       738       733       729
+dram[5]:        682       693       681       699      1591      1691      1969      2055       801       818       787       815       707       701       690       689
+maximum mf latency per bank:
+dram[0]:       2481      2374      2315      2146      2641      2682      2773      2430      2540      2414      2763      2549      2459      2646      2318      2913
+dram[1]:       2904      2884      2998      2777      3038      2713      2966      2943      3330      2926      2912      3108      2855      2558      2500      3010
+dram[2]:       2291      2609      2463      2561      2620      2871      2438      2771      2438      2972      2465      2685      2226      2610      2280      2508
+dram[3]:       2584      2506      2658      2352      3020      2581      2778      3350      2782      3137      2619      2980      2790      2322      3051      2951
+dram[4]:       2349      2721      2417      2527      2618      2698      2784      2360      2676      2436      2859      2732      2713      2291      2737      2383
+dram[5]:       2336      2277      2615      2394      2959      3159      2516      3207      2496      2496      2922      2806      2887      2515      3013      2408
+DRAM[0]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=404253 n_act=79453 n_pre=79437 n_req=125582 n_req_1=52661 n_req_2=72921 n_req_3=0 n_rd=197870 n_write=55176 bw_util=0.6012 bw_util_1=0.2438 bw_util_2=0.3574 bw_util_3=0 blp=7.870028 blp_1= 3.137021 blp_2= 5.184927 blp_3= -nan
+ n_activity=806753 dram_eff=0.6083 dram_eff_1=0.2467 dram_eff_2=0.3616 dram_eff_3=0
+bk0: 11808a 502686i bk1: 11640a 500296i bk2: 11006a 500656i bk3: 10874a 496013i bk4: 12344a 403926i bk5: 12058a 396754i bk6: 13194a 374904i bk7: 12636a 384861i bk8: 14244a 361375i bk9: 13858a 362095i bk10: 13792a 341094i bk11: 13350a 338881i bk12: 12258a 442472i bk13: 11906a 447003i bk14: 11584a 447946i bk15: 11318a 448070i 
+bw_dist = 0.244	0.357	0.000	0.387	0.012
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=11.9109
+DRAM[1]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=419562 n_act=76088 n_pre=76072 n_req=121336 n_req_1=48420 n_req_2=72916 n_req_3=0 n_rd=190070 n_write=54397 bw_util=0.5813 bw_util_1=0.2239 bw_util_2=0.3573 bw_util_3=0 blp=7.363442 blp_1= 2.854997 blp_2= 5.043197 blp_3= -nan
+ n_activity=804815 dram_eff=0.5895 dram_eff_1=0.2271 dram_eff_2=0.3624 dram_eff_3=0
+bk0: 11568a 520474i bk1: 11666a 509173i bk2: 10760a 514862i bk3: 10848a 503984i bk4: 12032a 438778i bk5: 11838a 418908i bk6: 12462a 416850i bk7: 12440a 396556i bk8: 13396a 399986i bk9: 13252a 399621i bk10: 12838a 385185i bk11: 12624a 377994i bk12: 11452a 473204i bk13: 11304a 471288i bk14: 10812a 486997i bk15: 10778a 471059i 
+bw_dist = 0.224	0.357	0.000	0.405	0.014
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=10.6919
+DRAM[2]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=406231 n_act=79501 n_pre=79486 n_req=124475 n_req_1=51559 n_req_2=72916 n_req_3=0 n_rd=196112 n_write=54859 bw_util=0.5963 bw_util_1=0.239 bw_util_2=0.3573 bw_util_3=0 blp=7.818437 blp_1= 3.165680 blp_2= 5.131958 blp_3= -nan
+ n_activity=806037 dram_eff=0.6039 dram_eff_1=0.242 dram_eff_2=0.3618 dram_eff_3=0
+bk0: 11592a 508463i bk1: 11552a 496879i bk2: 10914a 503591i bk3: 10866a 492584i bk4: 11968a 404210i bk5: 11930a 396200i bk6: 12902a 387652i bk7: 12836a 383486i bk8: 14066a 366359i bk9: 14082a 350736i bk10: 13308a 353147i bk11: 13480a 352056i bk12: 12100a 454258i bk13: 11890a 448935i bk14: 11272a 454361i bk15: 11354a 443985i 
+bw_dist = 0.239	0.357	0.000	0.391	0.012
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=11.5697
+DRAM[3]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=421093 n_act=75556 n_pre=75540 n_req=121007 n_req_1=48087 n_req_2=72920 n_req_3=0 n_rd=189350 n_write=54650 bw_util=0.5796 bw_util_1=0.2222 bw_util_2=0.3574 bw_util_3=0 blp=7.380267 blp_1= 2.848657 blp_2= 5.080877 blp_3= -nan
+ n_activity=804006 dram_eff=0.5883 dram_eff_1=0.2256 dram_eff_2=0.3628 dram_eff_3=0
+bk0: 11386a 522225i bk1: 11414a 515030i bk2: 10816a 510341i bk3: 10638a 507502i bk4: 11780a 429691i bk5: 11786a 422477i bk6: 12422a 417833i bk7: 12466a 400678i bk8: 13092a 402967i bk9: 13510a 385390i bk10: 12900a 380815i bk11: 12572a 381223i bk12: 11318a 478234i bk13: 11406a 475810i bk14: 11104a 475816i bk15: 10740a 474986i 
+bw_dist = 0.222	0.357	0.000	0.406	0.015
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=10.515
+DRAM[4]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=406340 n_act=79026 n_pre=79010 n_req=125001 n_req_1=52083 n_req_2=72918 n_req_3=0 n_rd=196938 n_write=54875 bw_util=0.5986 bw_util_1=0.2413 bw_util_2=0.3574 bw_util_3=0 blp=7.803028 blp_1= 3.111700 blp_2= 5.138910 blp_3= -nan
+ n_activity=805442 dram_eff=0.6066 dram_eff_1=0.2445 dram_eff_2=0.3621 dram_eff_3=0
+bk0: 11852a 503079i bk1: 11440a 500155i bk2: 11036a 496062i bk3: 10802a 498023i bk4: 12130a 408498i bk5: 12080a 402764i bk6: 12950a 390027i bk7: 12740a 384623i bk8: 14112a 364237i bk9: 14076a 352581i bk10: 13582a 353900i bk11: 13542a 346728i bk12: 11986a 450473i bk13: 11818a 456766i bk14: 11410a 455598i bk15: 11382a 449912i 
+bw_dist = 0.241	0.357	0.000	0.388	0.013
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=11.7135
+DRAM[5]: 16 bks, busW=4 BL=8 CL=12, tRRD=2 tCCD=6, tRCD=12 tRAS=28 tRP=12 tRC=40
+n_cmd=816189 n_nop=420268 n_act=75842 n_pre=75826 n_req=121266 n_req_1=48347 n_req_2=72919 n_req_3=0 n_rd=189566 n_write=54687 bw_util=0.5805 bw_util_1=0.2231 bw_util_2=0.3574 bw_util_3=0 blp=7.357291 blp_1= 2.846801 blp_2= 5.065275 blp_3= -nan
+ n_activity=804880 dram_eff=0.5886 dram_eff_1=0.2262 dram_eff_2=0.3624 dram_eff_3=0
+bk0: 11576a 523141i bk1: 11660a 510159i bk2: 10646a 514235i bk3: 10806a 499779i bk4: 11786a 441087i bk5: 12082a 417781i bk6: 12276a 417341i bk7: 12292a 406911i bk8: 13486a 396008i bk9: 13560a 378304i bk10: 12728a 376501i bk11: 12648a 379450i bk12: 11250a 480046i bk13: 11416a 478883i bk14: 10754a 489615i bk15: 10600a 477017i 
+bw_dist = 0.223	0.357	0.000	0.406	0.014
+dram_util_bins: 0 0 0 0 0 0 0 0 0 0
+dram_eff_bins: 0 0 0 0 0 0 0 0 0 0
+mrqq: max=16 avg=10.5437
+
+========= L2 cache stats =========
+L2_cache_bank[0]: Access = 86629, Miss = 50124, Miss_rate = 0.579, Pending_hits = 398, Reservation_fails = 40483
+L2_cache_bank[1]: Access = 85838, Miss = 48822, Miss_rate = 0.569, Pending_hits = 316, Reservation_fails = 36930
+L2_cache_bank[2]: Access = 84531, Miss = 47680, Miss_rate = 0.564, Pending_hits = 295, Reservation_fails = 24986
+L2_cache_bank[3]: Access = 85687, Miss = 47381, Miss_rate = 0.553, Pending_hits = 322, Reservation_fails = 27184
+L2_cache_bank[4]: Access = 85983, Miss = 49062, Miss_rate = 0.571, Pending_hits = 339, Reservation_fails = 32749
+L2_cache_bank[5]: Access = 89256, Miss = 48999, Miss_rate = 0.549, Pending_hits = 286, Reservation_fails = 39956
+L2_cache_bank[6]: Access = 84845, Miss = 47413, Miss_rate = 0.559, Pending_hits = 284, Reservation_fails = 19792
+L2_cache_bank[7]: Access = 86087, Miss = 47268, Miss_rate = 0.549, Pending_hits = 351, Reservation_fails = 23699
+L2_cache_bank[8]: Access = 86417, Miss = 49529, Miss_rate = 0.573, Pending_hits = 282, Reservation_fails = 35854
+L2_cache_bank[9]: Access = 87144, Miss = 48941, Miss_rate = 0.562, Pending_hits = 328, Reservation_fails = 35544
+L2_cache_bank[10]: Access = 84893, Miss = 47255, Miss_rate = 0.557, Pending_hits = 323, Reservation_fails = 24255
+L2_cache_bank[11]: Access = 86146, Miss = 47533, Miss_rate = 0.552, Pending_hits = 365, Reservation_fails = 26450
+Cache L2_bank_000:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86629, Miss = 50124 (0.579), PendingHit = 398 (0.00459)
+Cache L2_bank_001:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 85838, Miss = 48822 (0.569), PendingHit = 316 (0.00368)
+Cache L2_bank_002:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 84531, Miss = 47680 (0.564), PendingHit = 295 (0.00349)
+Cache L2_bank_003:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 85687, Miss = 47381 (0.553), PendingHit = 322 (0.00376)
+Cache L2_bank_004:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 85983, Miss = 49062 (0.571), PendingHit = 339 (0.00394)
+Cache L2_bank_005:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 89256, Miss = 48999 (0.549), PendingHit = 286 (0.0032)
+Cache L2_bank_006:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 84845, Miss = 47413 (0.559), PendingHit = 284 (0.00335)
+Cache L2_bank_007:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86087, Miss = 47268 (0.549), PendingHit = 351 (0.00408)
+Cache L2_bank_008:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86417, Miss = 49529 (0.573), PendingHit = 282 (0.00326)
+Cache L2_bank_009:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 87144, Miss = 48941 (0.562), PendingHit = 328 (0.00376)
+Cache L2_bank_010:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 84893, Miss = 47255 (0.557), PendingHit = 323 (0.0038)
+Cache L2_bank_011:	Size = 65536 B (64 Set x 8-way x 128 byte line)
+		Access = 86146, Miss = 47533 (0.552), PendingHit = 365 (0.00424)
+L2 Cache Total Miss Rate = 0.561
+Stream 1: L2 Cache Miss Rate = 0.348
+Stream 2: L2 Cache Miss Rate = 0.775
+Stream 1: Accesses  = 517375
+Stream 1: Misses  = 180012
+Stream 2: Accesses  = 516081
+Stream 2: Misses  = 399995
+Stream 1+2: Accesses  = 1033456
+Stream 1+2: Misses  = 580007
+Total Accesses  = 1033456
+MPKI-CORES
+CORE_L2MPKI_0	23.703
+CORE_L2MPKI_1	16.321
+CORE_L2MPKI_2	23.597
+CORE_L2MPKI_3	30.081
+CORE_L2MPKI_4	23.796
+CORE_L2MPKI_5	14.592
+CORE_L2MPKI_6	24.150
+CORE_L2MPKI_7	30.941
+CORE_L2MPKI_8	23.755
+CORE_L2MPKI_9	15.657
+CORE_L2MPKI_10	23.801
+CORE_L2MPKI_11	29.315
+CORE_L2MPKI_12	23.816
+CORE_L2MPKI_13	14.330
+CORE_L2MPKI_14	23.488
+CORE_L2MPKI_15	29.602
+CORE_L2MPKI_16	23.658
+CORE_L2MPKI_17	15.863
+CORE_L2MPKI_18	23.458
+CORE_L2MPKI_19	29.228
+CORE_L2MPKI_20	23.767
+CORE_L2MPKI_21	1.588
+CORE_L2MPKI_22	23.768
+CORE_L2MPKI_23	32.102
+CORE_L2MPKI_24	23.984
+CORE_L2MPKI_25	9.897
+CORE_L2MPKI_26	23.835
+CORE_L2MPKI_27	29.511
+CORE_L2MPKI_28	24.521
+CORE_L2MPKI_29	1.407
+CORE_L2MPKI_30	4.862
+CORE_L2MPKI_31	4.172
+CORE_L2MPKI_32	4.827
+CORE_L2MPKI_33	1.596
+CORE_L2MPKI_34	4.822
+CORE_L2MPKI_35	4.157
+CORE_L2MPKI_36	4.872
+CORE_L2MPKI_37	1.596
+CORE_L2MPKI_38	4.891
+CORE_L2MPKI_39	4.168
+CORE_L2MPKI_40	3.206
+CORE_L2MPKI_41	1.597
+CORE_L2MPKI_42	3.260
+CORE_L2MPKI_43	2.865
+CORE_L2MPKI_44	3.213
+CORE_L2MPKI_45	1.596
+CORE_L2MPKI_46	3.284
+CORE_L2MPKI_47	2.868
+CORE_L2MPKI_48	3.148
+CORE_L2MPKI_49	2.934
+CORE_L2MPKI_50	1.596
+CORE_L2MPKI_51	1.596
+CORE_L2MPKI_52	1.596
+CORE_L2MPKI_53	1.596
+CORE_L2MPKI_54	1.596
+CORE_L2MPKI_55	1.596
+CORE_L2MPKI_56	1.596
+CORE_L2MPKI_57	1.596
+CORE_L2MPKI_58	1.596
+CORE_L2MPKI_59	1.596
+Avg_MPKI_Stream1= 21.918
+Avg_MPKI_Stream2= 2.796
+MISSES-CORES
+CORE_MISSES_0	8886
+CORE_MISSES_1	1846
+CORE_MISSES_2	8744
+CORE_MISSES_3	5576
+CORE_MISSES_4	8811
+CORE_MISSES_5	1659
+CORE_MISSES_6	8862
+CORE_MISSES_7	4833
+CORE_MISSES_8	8882
+CORE_MISSES_9	1644
+CORE_MISSES_10	8953
+CORE_MISSES_11	5368
+CORE_MISSES_12	8860
+CORE_MISSES_13	1683
+CORE_MISSES_14	8774
+CORE_MISSES_15	4671
+CORE_MISSES_16	8540
+CORE_MISSES_17	1556
+CORE_MISSES_18	8025
+CORE_MISSES_19	6309
+CORE_MISSES_20	8557
+CORE_MISSES_21	106
+CORE_MISSES_22	8586
+CORE_MISSES_23	6689
+CORE_MISSES_24	8869
+CORE_MISSES_25	865
+CORE_MISSES_26	8506
+CORE_MISSES_27	6477
+CORE_MISSES_28	8790
+CORE_MISSES_29	85
+CORE_MISSES_30	8755
+CORE_MISSES_31	7330
+CORE_MISSES_32	8692
+CORE_MISSES_33	2640
+CORE_MISSES_34	8687
+CORE_MISSES_35	7313
+CORE_MISSES_36	8771
+CORE_MISSES_37	2640
+CORE_MISSES_38	8798
+CORE_MISSES_39	7336
+CORE_MISSES_40	11066
+CORE_MISSES_41	5281
+CORE_MISSES_42	11261
+CORE_MISSES_43	9772
+CORE_MISSES_44	11082
+CORE_MISSES_45	5280
+CORE_MISSES_46	11351
+CORE_MISSES_47	9786
+CORE_MISSES_48	10846
+CORE_MISSES_49	10008
+CORE_MISSES_50	22680
+CORE_MISSES_51	22680
+CORE_MISSES_52	22680
+CORE_MISSES_53	23320
+CORE_MISSES_54	23320
+CORE_MISSES_55	23340
+CORE_MISSES_56	23980
+CORE_MISSES_57	24000
+CORE_MISSES_58	23340
+CORE_MISSES_59	23960
+L2_MISSES = 580007
+L2_total_cache_accesses = 1033456
+L2_total_cache_misses = 580007
+L2_total_cache_miss_rate = 0.5612
+L2_total_cache_pending_hits = 3889
+L2_total_cache_reservation_fails = 367882
+L2_total_cache_breakdown:
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][HIT] = 284745
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][HIT_RESERVED] = 601
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][MISS] = 424460
+	L2_cache_stats_breakdown[GLOBAL_ACC_R][RESERVATION_FAIL] = 270108
+	L2_cache_stats_breakdown[CONST_ACC_R][HIT] = 53
+	L2_cache_stats_breakdown[CONST_ACC_R][HIT_RESERVED] = 5
+	L2_cache_stats_breakdown[CONST_ACC_R][MISS] = 2
+	L2_cache_stats_breakdown[CONST_ACC_R][RESERVATION_FAIL] = 120
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][HIT] = 164282
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][HIT_RESERVED] = 3205
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][MISS] = 155511
+	L2_cache_stats_breakdown[GLOBAL_ACC_W][RESERVATION_FAIL] = 95177
+	L2_cache_stats_breakdown[INST_ACC_R][HIT] = 480
+	L2_cache_stats_breakdown[INST_ACC_R][HIT_RESERVED] = 78
+	L2_cache_stats_breakdown[INST_ACC_R][MISS] = 34
+	L2_cache_stats_breakdown[INST_ACC_R][RESERVATION_FAIL] = 2477
+L2_cache_data_port_util = 0.185
+L2_cache_fill_port_util = 0.000
+
+icnt_total_pkts_mem_to_simt=3874442
+icnt_total_pkts_simt_to_mem=1732407

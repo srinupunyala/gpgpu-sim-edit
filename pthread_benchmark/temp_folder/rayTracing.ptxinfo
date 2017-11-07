@@ -1,0 +1,2 @@
+ptxas info    : Compiling entry function '_Z6renderPjP4Nodejjff' for 'sm_20'
+ptxas info    : Used 63 registers, 4+0 bytes lmem, 64 bytes cmem[0], 48 bytes cmem[2], 4 bytes cmem[14], 52 bytes cmem[16]

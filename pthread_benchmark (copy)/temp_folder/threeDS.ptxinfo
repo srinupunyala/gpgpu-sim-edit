@@ -1,0 +1,2 @@
+ptxas info    : Compiling entry function 'stencil_3D_order8' for 'sm_20'
+ptxas info    : Used 31 registers, 4608+0 bytes smem, 72 bytes cmem[0]

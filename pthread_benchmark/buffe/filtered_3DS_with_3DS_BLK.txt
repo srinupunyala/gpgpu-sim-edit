@@ -1,0 +1,8 @@
+gpu sim ipc=216.8919
+total sim cycles=1554612.0
+total sim insn=337182720.0
+Mem BW Utilization=0.2344
+Mem BW Utilization=0.4264
+total L2 accesses=695701
+total L2 misses=607170
+total L2 Avg MPKI=1.799
